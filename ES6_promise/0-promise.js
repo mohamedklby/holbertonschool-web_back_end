@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Only make Promise
 function getResponseFromAPI() {
 	return new Promise((resolve, reject) => {
@@ -12,3 +13,10 @@ function getResponseFromAPI() {
 }
 
 export default getResponseFromAPI;
+=======
+export default function getResponseFromAPI() {
+	  return new Promise((resolve) => {
+		      resolve('Success');
+		    });
+}
+>>>>>>> 3d608e94 (kllkj)
